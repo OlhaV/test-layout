@@ -65,7 +65,7 @@ section:hover { -webkit-box-shadow: 0px 0px 8px 10px #dcdfe1; box-shadow: 0px 0p
 .delivery__distance__part { height: 50px; margin: 0; color: #ffffff; }
 .delivery__distance__part p { display: inline-block; position: relative; top: -20px; }
 .delivery__distance__part p span { font-weight: bold; }
-.delivery__distance__part_covered { background: -webkit-repeating-linear-gradient(135deg, #1fabe2, #1fabe2 6px, #0a9cdd 6px, #0a9cdd 7px); background: repeating-linear-gradient(-45deg, #1fabe2, #1fabe2 6px, #0a9cdd 6px, #0a9cdd 7px); width: 67%; display: inline-block; border-radius: 30px; }
+.delivery__distance__part_covered { background: -webkit-repeating-linear-gradient(135deg, #1fabe2, #1fabe2 6px, #0a9cdd 6px, #0a9cdd 7px); background: repeating-linear-gradient(-45deg, #1fabe2, #1fabe2 6px, #0a9cdd 6px, #0a9cdd 7px); width: 67%; display: inline-block; border-bottom-left-radius: 30px; border-top-left-radius: 30px; border-bottom-right-radius: 15px; border-top-right-radius: 15px; }
 .delivery__distance__part_covered p { text-align: center; left: 247px; }
 .delivery__distance__part_left { width: 27%; display: inline-block; position: absolute; }
 .delivery__distance__part_left p { color: #059fde; left: 21px; top: -17px; }
