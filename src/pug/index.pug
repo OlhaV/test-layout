@@ -4,6 +4,54 @@ block title
 	title Title of template
 
 block content
-	.out
-		+icon("octa")
-		| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ipsum maxime, tempora deserunt minima suscipit voluptatem possimus ratione inventore eveniet autem esse accusamus eos quibusdam consequuntur quia officiis eum! Et!
+	section.delivery 
+		.inner 
+			.inner__border 
+				span 
+				span 
+				span 
+			.delivery__header
+				h2 uCPE Delivered
+				p.secondaryInfo Sep 25, 2016
+				.delivery__transported 
+					p Transported:
+					p.delivery__transported__item.secondaryInfo Juniper SLX 1000 
+						span x10
+					p.delivery__transported__item.secondaryInfo Juniper SXL 2000
+						span x12
+
+				.delivery__distance
+					.delivery__distance__part.delivery__distance__part_covered
+						img.delivery__distance_dhl(src='img/dhl.png')
+						p Distance covered <br>
+							span 600 km 
+						img.delivery__distance_air(src='img/air.png')
+						img.delivery__distance_house(src='img/house.png')
+						img.delivery__distance_truck(src='img/truck.png')
+					.delivery__distance__part.delivery__distance__part_left
+						p Remaining distance <br>
+							span 4.32 km
+						img.delivery__distance__part_left_office(src='img/office.png')
+
+
+
+				.delivery__info
+					.delivery__info__address.delivery__info__address_visited
+						p 107 Coolman Dr. NI <br> Alabama, USA
+						p Coming at stock: Sep 25,8:00
+						p Cargo went to: Sep 25,13:00
+					.delivery__info__address.delivery__info__address_visited
+						p 5607 Fordham Dr. NW <br> Albuquerque, USA
+						p Coming at stock: Sep 25,15:00
+						p Cargo went to: Sep 25,18:00
+					.delivery__info__address.delivery__info__address_unvisited
+						p 3828, Piermont Drive NE
+						p Albuquerque, USA
+						p Coming after 54 minutes in Site
+				.delivery__button 
+					.delivery__button__text
+						p Missing 1 hour 10 minutes 
+						span i
+						span
+					.delivery__button__border
+					

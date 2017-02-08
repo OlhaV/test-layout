@@ -1,1 +1,162 @@
-// Normally mainpage styles
+// index page styles 
+
+.inner
+	&__border 
+		position: relative
+		left: -35px
+		span 
+			display: inline-block
+			position: absolute
+		span:first-child
+			width: 2px
+			height: 28px
+			background-color: $borderColor
+			top: -20px
+		span:nth-child(2)
+			width: 8px
+			height: 8px
+			border-radius: 8px
+			background-color: $borderColor
+			top: 10px
+			left: -3px
+		span:nth-child(3)
+			width: 2px
+			height: 347px
+			top: 21px
+			background-color: $secondaryBorderColor
+.delivery
+	&__header
+		h2
+			font-weight: lighter
+	&__transported
+		margin: 35px 0 26px
+		p 
+			display: inline-block
+			&:first-child
+				font-weight: bold
+		&__item
+			background: $secondaryBackground
+			padding: 4px 10px
+			border-radius: 18px
+			cursor: pointer
+			&:hover 
+				background: #a1a2a9
+				color: $white
+				span 
+					background: $secondaryBackground
+			span
+				background: #ffffff
+				padding: 3px 6px
+				border-radius: 10px
+				color: $black
+				margin-left: 3px
+	&__distance
+		background: #e5e6eb
+		height: 50px
+		border-radius: 30px
+		&_dhl
+			right: 5px
+		&_truck, &_house
+			left: 395px
+		&_air
+			left: 204px 
+		&__part
+			height: 50px
+			margin: 0
+			color: $white
+			p 
+				display: inline-block
+				position: relative
+				top: -20px
+				span
+					font-weight: bold
+			&_covered
+				background: repeating-linear-gradient(-45deg, #1fabe2, #1fabe2 6px, #0a9cdd 6px, #0a9cdd 7px)
+				width: 67%
+				display: inline-block
+				border-radius: 30px
+				p 
+					text-align: center
+					left: 247px
+			&_left
+				width: 27%
+				display: inline-block
+				position: absolute
+				p 
+					color: #059fde
+					left: 21px
+					top: -17px
+				&_office
+					left: 210px 
+					top: -2px !important
+			img 
+				display: inline-block
+				position: relative
+				top: -5px
+
+	&__info
+		display: flex 
+		margin: 10px 0 20px
+		&__address:first-child
+			flex: 2 1 auto
+		&__address:nth-child(2)
+			flex: 0 1 auto
+		&__address 
+			p:first-child
+				font-size: 12px 
+			p:not(:first-child)
+				font-size: 10px 
+				color: $thirdTextColor
+			&_unvisited
+				flex: 1 1 auto
+				text-align: right
+				p:first-child
+					font-weight: bold
+	&__button
+		background-color: $seconradyWarningColor
+		display: inline-block
+		height: 33px
+		border-radius: 25px		
+		margin-bottom: 50px
+		width: 166px
+		cursor: pointer
+		&__text
+			display: inline-block
+			padding: 10px
+			background: $warningColor
+			color: $white
+			font-size: 10px
+			font-weight: bold
+			border-right: 2px solid $seconradyWarningColor
+			border-bottom-left-radius: 25px
+			border-top-left-radius: 25px
+			position: relative 
+			&:hover
+				background-color: $seconradyWarningColor
+				span:nth-child(3)
+					background-color: transparent
+			p
+				display: inline-block
+				margin-right: 4px
+			span:nth-child(2)
+				color: $seconradyWarningColor
+				padding: 2px 8px
+				background: $warningColor
+				border-radius: 10px
+				position: absolute
+				top: 7px
+			span:nth-child(3)
+				background-color: $warningColor
+				width: 2px
+				height: 33px
+				position: absolute
+				top: 0px
+				right: -3px
+				padding: 0
+			&__border
+				display: inline-block
+				border-right: 8px solid $seconradyWarningColor
+				background-color: $seconradyWarningColor 
+				border-top-right-radius: 15px
+				border-bottom-right-radius: 15px
+				padding: 8px 0

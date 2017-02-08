@@ -32,5 +32,31 @@ body
 	font-family: Arial, sans-serif
 	font-size: 12px
 	line-height: 1.4
+	color: $primaryTextColor
+	background-color: $backgroundColor
 	
+* 
+	transition: 0.4s 
 // common blocks
+
+.out 
+	width: 1200px 
+	margin: 0 auto
+	+r($lgDesc)
+		width: 95% 
+
+.inner
+	width: 97%
+	margin-left: 3%
+	padding: 20px 30px 
+
+.secondaryInfo
+	font-size: 11px 
+	color: $secondaryTextColor
+
+section 
+	background-color: $white
+	margin: 20px auto
+	box-shadow: 0px 0px 7px 4px #dcdfe1
+	&:hover 
+		box-shadow: 0px 0px 8px 10px #dcdfe1
